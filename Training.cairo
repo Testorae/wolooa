@@ -38,4 +38,4 @@ func __execute__{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr
     );
     return (retdata_len=retdata_len, retdata=retdata);
 }
-// okay so THis one is a bit bigger than the previous
+// okay so THis one is a bit bigger than the previous ones
