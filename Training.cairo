@@ -14,7 +14,7 @@ func __validate__{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_pt
 }
 
 //
-// __validate_declare__: declare transactions now require accounts to pay fees
+// __validate_declare__: declare transactions now required
 //
 @external
 func __validate_declare__{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(
