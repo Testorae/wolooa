@@ -4,7 +4,7 @@ from starkware.cairo.common.cairo_builtins import HashBuiltin
 from starkware.starknet.common.syscalls import call_contract
 
 //
-// __validate__: upon receiving a tx the account contract will first call '__validate__'
+// __validate__: upon receiving a tx the account contract will first call '__validate__' 
 //
 @external
 func __validate__{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(
